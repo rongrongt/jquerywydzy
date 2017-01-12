@@ -33,7 +33,7 @@ session_start();
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
+        <li class="active"><a href="#">lin</a></li>
         <li><a href="#">Link</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
@@ -153,7 +153,7 @@ session_start();
 				</li>
 				<form action="" class="edli-from">
 					<input type="text" class="edli-big-input">
-					<button class="edli-big"></button> 
+					<button class="edli-big" id="edli-big"></button> 
 				</form>
 
 			</ul>
@@ -222,8 +222,8 @@ session_start();
 			</div>
 			<div class="produce-desi-box" id="produce-desi-box">
 
-				<div class="des-one-of">
-					<!-- <div class="desof-cover">
+				<!--<div class="des-one-of">
+					 <div class="desof-cover">
 						<a href="">
 							<img src="./wyimg/02.png" alt="">
 						</a>
@@ -240,8 +240,9 @@ session_start();
 						<strong class="des-price">
 							￥<b>2222</b>.00	
 						</strong>		
-					</div> -->
-				</div>
+					</div>
+
+				</div> -->
 			</div>
 			<!-- <div id="page-box" class="page-box">
 				<div class="pro-page">
@@ -285,129 +286,36 @@ session_start();
 				<div>
 					<h4 class="s-hot-h">最热排行榜</h4>
 				</div>
-				<div class="chart-list">
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
+					<div class="chart-list-wrap">
+						<div class="chart-list" id="chart-list">
+							<!-- <div class="hot-branch">
+								<div class="hbranch-img">
+									<a href="">
+										<img src="wyimg/slider.jpg" alt="">
+									</a>
+								</div>
+								<div class="ch-list-box">
+									<h6 class="ch-list-name">
+										<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
+									</h6>
+									<b class="s-renq">
+										<i class="rent"></i>21233
+									</b>
+								</div>
+							</div>-->
+				
 						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
-						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
-						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
-						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
-						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-					<div class="hot-branch">
-						<div class="hbranch-img">
-							<a href="">
-								<img src="wyimg/slider.jpg" alt="">
-							</a>
-						</div>
-						<div class="ch-list-box">
-							<h6 class="ch-list-name">
-								<a href="" >舞曲舞曲去uquu舞曲舞曲舞曲㐏</a>
-							</h6>
-							<b class="s-renq">
-								<i class="rent"></i>21233
-							</b>
-						</div>
-					</div>
-
-				</div>	
+					</div>	
 			</div>
 		</div>
 
 	</div>
 
 
-
+	<footer class="footer">
+		<img src="wyimg/footer.jpg" alt="">
+	</footer>
 
 
 </body>
 </html>
-
-<!--
-<div class="produce-desi">
-			<div class="pro-class" id="pro-class">
-			</div>
-			<div class="produce-desi-box" id="produce-desi-box">
-
-			</div>
-			<div id="page-box" class="page-box">
-			</div>	
-		</div>
-
-
-
-<script src="jquery.js"></script>
-	<script src="jquerycookie.js"></script>
-	<script src="wyddd.js"></script>
-
-
-<div class="off-banner1"><img src="wyimg/banner1.jpg" alt=""></div>
-		<div class="off-banner2"><img src="wyimg/banner2.jpg" alt=""></div>
-		<div class="off-banner3"><img src="wyimg/banner3.jpg" alt=""></div>-->

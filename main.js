@@ -27,12 +27,12 @@ require.config({
 		"slider":"lib/slider/slider",//图片轮播
 		"pagination":'lib/jquery.pagination',//分页插件
 		"category":"category",//课程分类
-		"list":"list"
+		"list":"list",
 
 	}//
 })
 
-require(['jquery','guanzu','category','list','jquerycookie','pagination','bootstrap','slider'],function($,guanzu,Category,List){
+require(['jquery','guanzu','category','list','scroll','jquerycookie','pagination','bootstrap','slider'],function($,guanzu,Category,List,Scroll){
 	+function(){
 		
 
@@ -66,7 +66,7 @@ require(['jquery','guanzu','category','list','jquerycookie','pagination','bootst
 
 	$('.M-box').pagination({//分页插件
 	    coping:true,
-	    pagecount:3,
+	    pageCount:4,
 	    homePage:'首页',
 	    endPage:'末页',
 	    prevContent:'上页',
@@ -112,7 +112,22 @@ require(['jquery','guanzu','category','list','jquerycookie','pagination','bootst
 			$('#video-wrap').hide(1000);
 		})
 	});
+
+	new Scroll({//热门推荐处的数据请求和slider效果
+		container:$('#chart-list'),
+		url:'./php/getHot.php'
+	});
 	
+	$('#edli-big').click(function(e){
+		e.preventDefault();
+
+		$('.edli-big-input').show().focus();
+		$(this).css('margin-left','10px')
+	})
+
+
+
+
 
 });//
 
